@@ -1,5 +1,6 @@
 package com.array;
 
+import java.util.Scanner;
 
 public class Array {
 	int arr []= {12,3,5,7,9,0,1,8,4,0,6,2,0,11,33,67,44,22};
@@ -18,6 +19,22 @@ public class Array {
 		//obj.moveZerosToEnd();
 		//boolean ans= obj.palindrome(); System.out.println(ans);
 		//obj.findMissingNum();
+		//obj.resizeArray();
+		
+	}
+
+	private void resizeArray() {
+		// Create a new array and move the values to the new array
+		Scanner sc=new Scanner(System.in);
+		int j=0;
+		System.out.println("Enter the capacity");
+		int capacity= sc.nextInt();
+		int newarr2[]=new int [capacity];
+		for (int i =0;i<arr2.length;i++) {
+			newarr2[j]=arr[i];
+			j++;
+		}
+		System.out.println("The old array size is "+arr2.length+ "\nThe new size of the array is "+newarr2.length);
 		
 	}
 
