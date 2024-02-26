@@ -1,0 +1,16 @@
+SinglyLinked list code can be derived from chatgpt. 
+
+As of now i know how to create a single linked list. 
+And also to understand by looking at the code.
+
+Whats left is
+	search an element in the list
+	reverse the list 
+	find nth node from the end of te list 
+	remove duplicate from the sorted singly linked list 
+	insert a node in the sorted singly linked list 
+	remove a key from the singly linked list 
+	detect a loop in the singly linked list 
+	find the start for a loop in a singly linked list 
+	remove loop from a singly linked list 
+	merge two sorted list 
