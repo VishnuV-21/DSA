@@ -40,6 +40,7 @@ public class Array {
 
 	public void findMissingNum() {
 		// To find the missing number 	
+		// use the formula for sum of n natural numbers here : n*(n+1)/2
 		int n2=arr2.length+1;
 		int sum2=n2*(n2+1)/2;
 		for(int num : arr2) {
